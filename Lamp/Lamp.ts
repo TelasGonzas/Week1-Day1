@@ -9,4 +9,8 @@ class Lamp {
   public turnOff(): void {
     this.isOn = false;
   }
+
+  public switch(): void {
+    this.isOn = !this.isOn;
+  }
 }
