@@ -1,5 +1,6 @@
 class Lamp {
   private isOn: boolean;
+  private hasBubble: boolean;
 
   public turnOn(): void {
     this.isOn = true;
