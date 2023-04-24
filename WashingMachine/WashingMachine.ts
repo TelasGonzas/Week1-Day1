@@ -4,7 +4,7 @@ class WashingMachine {
   private softener: boolean;
   private isWorking: boolean;
 
-  private wash(): void {
+  public wash(): void {
     this.isWorking = true;
   }
 }
